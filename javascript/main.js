@@ -1,5 +1,5 @@
 // Node.js v21.1.0
-const { complex, add, multiply, sin, sqrt, pi, equal, sort, format } = require('mathjs')
+const { complex } = require('mathjs')
 
 // Complex 2 + 3i => a
 let a = complex(2, 3)

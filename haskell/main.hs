@@ -1,6 +1,5 @@
 -- The Glorious Glasgow Haskell Compilation System, version 9.4.7
 import Data.Complex
-
 -- Complex 2 + 3i => a
 a = 2 :+ 3
 -- Complex 4 - 2i => b

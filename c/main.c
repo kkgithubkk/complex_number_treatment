@@ -18,12 +18,12 @@ int main(void)
 //  Complex 2 + 3i => a
 // a = 2 + 3j
 double complex a = 2 + 3 * I;
-printf("a= ");
+printf("a = ");
 cprint(a);
 
 // Complex 4 - 2i => b
 double complex b = 4 - 2.0i;
-printf("b= ");
+printf("b = ");
 cprint(b);
 
 // Real part of 'a'
@@ -41,17 +41,17 @@ double complex conj_a = conj(a);
 printf("Conjugate of a is ");
 cprint(conj_a);
 
-// # |a|
+// |a|
 double complex abs_a = cabs(a);
 printf("Absolute value of a is ");
 dprint(abs_a);
 
-// # a + b
+// a + b
 double complex add_a_b = a + b;
 printf("a+b = ");
 cprint(add_a_b);
 
-// # a × 2
+// a × 2
 double complex mul_a_2 = a * 2;
 printf("2a = ");
 cprint(mul_a_2);

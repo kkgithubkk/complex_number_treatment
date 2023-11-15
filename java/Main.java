@@ -5,11 +5,11 @@ public class Main {
 //        Java 20.0.1 commons-math3 3.6.1
 // Complex 2 + 3i => a
         Complex a = Complex.valueOf(2, 3);
-        System.out.println("a=" + a);
+        System.out.println("a = " + a);
 
 // Complex 4 - 2i => b
         Complex b = Complex.valueOf(4, -2);
-        System.out.println("b=" + b);
+        System.out.println("b = " + b);
 
 // Real part of 'a'
         double realPartA = a.getReal();
@@ -21,10 +21,18 @@ public class Main {
 
 // Conjugate of a
         Complex conj_a = a.conjugate();
-        System.out.println("Conjugate of a is "+conj_a);
+        System.out.println("Conjugate of a is " + conj_a);
 
 // |a|
         double abs_a = a.abs();
         System.out.println("Absolute value of a is " + abs_a);
+
+// a + b
+        Complex add_a_b = a.add(b);
+        System.out.println("a+b = " + add_a_b);
+
+// a × 2
+        Complex mul_a_2 = a.multiply(2);
+        System.out.println("2a = " + mul_a_2);
     }
 }

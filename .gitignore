@@ -161,3 +161,8 @@ cython_debug/
 out
 
 a.out
+
+*.hi
+main
+
+*.o

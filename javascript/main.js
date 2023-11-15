@@ -2,28 +2,28 @@
 const { complex, add, multiply, sin, sqrt, pi, equal, sort, format } = require('mathjs')
 
 // Complex 2 + 3i => a
-const a = complex(2, 3)
+let a = complex(2, 3)
 
 // Complex 4 - 2i => b
-const b = complex('4-2i')
+let b = complex('4-2i')
 
 // Real part of 'a'
-const real_part_a = a.re
+let real_part_a = a.re
 
 // Imaginary part of 'a'
-const imaginary_part_a = a.im
+let imaginary_part_a = a.im
 
 // Conjugate of a
-const conj_a = a.conjugate()
+let conj_a = a.conjugate()
 
 // |a|
-abs_a = a.abs()
+let abs_a = a.abs()
 
 // a + b
-add_a_b = a.add(b)
+let add_a_b = a.add(b)
 
 // a × 2
-mul_a_2 = a.mul(2)
+let mul_a_2 = a.mul(2)
 
 console.log(`a = ${a}`)
 console.log(`b = ${b}`)

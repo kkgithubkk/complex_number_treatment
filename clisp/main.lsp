@@ -1,3 +1,4 @@
+;; GNU CLISP 2.49.92 (2018-02-18)
 ; 複素数表示
  (defun print-complex (a)
   (princ "(")

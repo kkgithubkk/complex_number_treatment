@@ -5,11 +5,11 @@
  * Java 
  * Haskell
  * Common Lisp
+ * Go
  * Fortran 
  * JavaScript 
  * Python
  * Julia
- * Go
  * ruby
 
  

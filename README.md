@@ -9,5 +9,7 @@
  * JavaScript 
  * Python
  * Julia
+ * Go
+ * ruby
 
  

@@ -1,12 +1,12 @@
 # complex_number_treatment
 複素数を用いるサンプルコード
 
- * clisp
- * haskell
- * javascript
- * c
- * fortran
- * java
- * python
+ * Common Lisp
+ * Haskell
+ * JavaScript 
+ * C
+ * Fortran 
+ * Java 
+ * Python 
 
  

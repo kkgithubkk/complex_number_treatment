@@ -6,16 +6,16 @@ a = 2 + 3im
 b = 4 - 2im
 
 # Real part of 'a'
-real_part_a = real(a)
+ℜ(a) = real(a)
 
 # Imaginary part of 'a'
-imaginary_part_a = imag(a)
+ℑ(a) = imag(a)
 
 # Conjugate of a
-conj_a = conj(a)
+a̅ = conj(a)
 
 # |a|
-abs_a = abs(a)
+⎸a⎹ = abs(a)
 
 # a + b
 add_a_b = a + b
@@ -25,10 +25,10 @@ mul_a_2 = a * 2
 
 println("a = ", a)
 println("b = ", b)
-println("Real part of a is ", real_part_a)
-println("Imaginary part of a is ", imaginary_part_a)
-println("Conjugate of a is ", conj_a)
-println("Absolute value of a is ", abs_a)
+println("Real part of a is ", ℜ(a))
+println("Imaginary part of a is ", ℑ(a))
+println("Conjugate of a is ", a̅)
+println("Absolute value of a is ", ⎸a⎹)
 println("a + b = ", add_a_b)
 println("2a = ", mul_a_2)
 

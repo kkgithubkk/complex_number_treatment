@@ -7,6 +7,7 @@
  * Common Lisp
  * Fortran 
  * JavaScript 
- * Python 
+ * Python
+ * Julia
 
  

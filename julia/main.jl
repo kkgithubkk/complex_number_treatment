@@ -12,10 +12,10 @@ b = 4 - 2im
 ℑₐ = ℑ(a)
 
 # Conjugate of a
-a̅ = conj(a)
+conjugate_a = a̅
 
 # |a|
-⎸a⎹ = abs(a)
+abs_a = ⎸a⎹
 
 # a + b
 a➕b = a + b
@@ -27,8 +27,8 @@ println("a = ", a)
 println("b = ", b)
 println("Real part of a is ", ℜₐ)
 println("Imaginary part of a is ", ℑₐ)
-println("Conjugate of a is ", a̅)
-println("Absolute value of a is ", ⎸a⎹)
+println("Conjugate of a is ", conjugate_a)
+println("Absolute value of a is ", abs_a)
 println("a + b = ", a➕b)
 println("2a = ", a✖️2)
 

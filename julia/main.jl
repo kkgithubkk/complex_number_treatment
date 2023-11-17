@@ -6,10 +6,10 @@ a = 2 + 3im
 b = 4 - 2im
 
 # Real part of 'a'
-ℜ(a) = real(a)
+ℜₐ = ℜ(a)
 
 # Imaginary part of 'a'
-ℑ(a) = imag(a)
+ℑₐ = ℑ(a)
 
 # Conjugate of a
 a̅ = conj(a)
@@ -25,8 +25,8 @@ a✖️2 = a * 2
 
 println("a = ", a)
 println("b = ", b)
-println("Real part of a is ", ℜ(a))
-println("Imaginary part of a is ", ℑ(a))
+println("Real part of a is ", ℜₐ)
+println("Imaginary part of a is ", ℑₐ)
 println("Conjugate of a is ", a̅)
 println("Absolute value of a is ", ⎸a⎹)
 println("a + b = ", a➕b)

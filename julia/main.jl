@@ -18,10 +18,10 @@ a̅ = conj(a)
 ⎸a⎹ = abs(a)
 
 # a + b
-add_a_b = a + b
+a➕b = a + b
 
 # a × 2
-mul_a_2 = a * 2
+a✖️2 = a * 2
 
 println("a = ", a)
 println("b = ", b)
@@ -29,6 +29,6 @@ println("Real part of a is ", ℜ(a))
 println("Imaginary part of a is ", ℑ(a))
 println("Conjugate of a is ", a̅)
 println("Absolute value of a is ", ⎸a⎹)
-println("a + b = ", add_a_b)
-println("2a = ", mul_a_2)
+println("a + b = ", a➕b)
+println("2a = ", a✖️2)
 

@@ -9,7 +9,7 @@
  * Fortran 
  * JavaScript 
  * Python
- * Julia
- * ruby
+ * julia
+ * Ruby
 
  

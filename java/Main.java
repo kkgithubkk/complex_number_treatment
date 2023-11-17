@@ -10,13 +10,13 @@ public class Main {
     Complex b = Complex.valueOf(4, -2);
 
 // Real part of 'a'
-    double realPartA = a.getReal();
+    double ℜₐ = a.getReal();
 
 // Imaginary part of 'a'
-    double imaginaryPartA = a.getImaginary();
+    double ℑₐ = a.getImaginary();
 
 // Conjugate of a
-    Complex conjA = a.conjugate();
+    Complex a̅ = a.conjugate();
 
 // |a|
     double absA = a.abs();
@@ -29,9 +29,9 @@ public class Main {
 
     System.out.println("a = " + a);
     System.out.println("b = " + b);
-    System.out.println("Real part of a is " + realPartA);
-    System.out.println("Imaginary part of a is " + imaginaryPartA);
-    System.out.println("Conjugate of a is " + conjA);
+    System.out.println("Real part of a is " + ℜₐ);
+    System.out.println("Imaginary part of a is " + ℑₐ);
+    System.out.println("Conjugate of a is " + a̅);
     System.out.println("Absolute value of a is " + absA);
     System.out.println("a + b = " + addAB);
     System.out.println("2a = " + mulA2);
